@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wmgmail
+Comment=Gmail notifier
+Comment[pl]=Powiadamianie o nowej poczcie gmail
+Exec=wmgmail
+Terminal=false
+Type=Application
+Categories=Applet;
+NotShowIn=GNOME;KDE;
+Encoding=UTF-8
+# vi: encoding=utf-8
