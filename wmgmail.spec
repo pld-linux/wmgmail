@@ -1,12 +1,12 @@
 Summary:	Yet another Gmail notifier
 Summary(pl):	Kolejny powiadamiacz Gmail	
 Name:		wmgmail
-Version:	0.6.0
+Version:	0.6.1
 Release:	0.1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://varg.dyndns.org/psi/files/misc/%{name}-%{version}.tar.gz	
-# Source0-md5:	bc35a237a8e81da93e0d0dcf90030dbe
+# Source0-md5:	3ba1d012f8efaf4bfe6bc4d1e7e05123
 Source1:	%{name}.desktop
 URL:		http://varg.dyndns.org/psi/pub/code/misc/wmgmail.html
 Requires:	python-libgmail
@@ -38,7 +38,7 @@ Funkcjonalno¶æ obejmuje:
   w skrzynce przychodz±cej Gmaila).
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 ./setup.py build
