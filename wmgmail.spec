@@ -9,7 +9,8 @@ Source0:	http://varg.dyndns.org/psi/files/misc/%{name}-%{version}.tar.gz
 # Source0-md5:	bc35a237a8e81da93e0d0dcf90030dbe
 Source1:	%{name}.desktop
 URL:		http://varg.dyndns.org/psi/pub/code/misc/wmgmail.html
-BuildRequires:	XFree86-devel
+Requires:	python-libgmail
+Requires:	pywmgeneral
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
