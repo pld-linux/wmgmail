@@ -14,7 +14,7 @@ Requires:	pywmgeneral
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-wmgmail checks your gmail account for new mail. Its has (optional) GUI
+wmgmail checks your gmail account for new mail. It has (optional) GUI
 configuration and quick mail preview.
 
 Functionality includes:
@@ -24,7 +24,18 @@ Functionality includes:
 - GUI for settings
 - Mail contents preview (shows same snippets that Gmail inbox does)
 
-#%description -l pl
+%description -l pl
+wmgmail sprawdza konto gmail pod k±tem nowej poczty. Ma (opcjonalny)
+konfigurator z graficznym interfejsem u¿ytkownika  oraz szybki podgl±d
+poczty.
+
+Funkcjonalno¶æ obejmuje:
+- sprawdzanie nowej poczty w Gmailu (¶ci¶le mówi±c u¿ywa zapytania
+  "is:unread")
+- zmienny czas sprawdzania (od 2 minut do kilku godzin)
+- GUI dla ustawieñ
+- podgl±d zawarto¶ci poczty (pokazuje takie same wycinki, jakie widaæ
+  w skrzynce przychodz±cej Gmaila).
 
 %prep
 %setup -q -n %{name}
