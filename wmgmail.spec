@@ -1,11 +1,11 @@
 Summary:	Yet another Gmail notifier
-Summary(pl):	Kolejny powiadamiacz Gmail	
+Summary(pl):	Kolejny powiadamiacz Gmail
 Name:		wmgmail
 Version:	0.6.2
 Release:	0.2
 License:	GPL v2
 Group:		X11/Window Managers/Tools
-Source0:	http://varg.dyndns.org/psi/files/misc/%{name}-%{version}.tar.gz	
+Source0:	http://varg.dyndns.org/psi/files/misc/%{name}-%{version}.tar.gz
 # Source0-md5:	ff58e6e61bd50cda14200d37b39ca994
 Source1:	%{name}.desktop
 URL:		http://varg.dyndns.org/psi/pub/code/misc/wmgmail.html
