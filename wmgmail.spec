@@ -1,5 +1,5 @@
 Summary:	Yet another Gmail notifier
-Summary(pl.UTF-8):   Kolejny powiadamiacz Gmail
+Summary(pl.UTF-8):	Kolejny powiadamiacz Gmail
 Name:		wmgmail
 Version:	0.6.2
 Release:	0.2
