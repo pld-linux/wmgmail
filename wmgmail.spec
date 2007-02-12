@@ -1,5 +1,5 @@
 Summary:	Yet another Gmail notifier
-Summary(pl):	Kolejny powiadamiacz Gmail
+Summary(pl.UTF-8):   Kolejny powiadamiacz Gmail
 Name:		wmgmail
 Version:	0.6.2
 Release:	0.2
@@ -25,18 +25,18 @@ Functionality includes:
 - GUI for settings
 - Mail contents preview (shows same snippets that Gmail inbox does)
 
-%description -l pl
-wmgmail sprawdza konto gmail pod k±tem nowej poczty. Ma (opcjonalny)
-konfigurator z graficznym interfejsem u¿ytkownika  oraz szybki podgl±d
+%description -l pl.UTF-8
+wmgmail sprawdza konto gmail pod kÄ…tem nowej poczty. Ma (opcjonalny)
+konfigurator z graficznym interfejsem uÅ¼ytkownika  oraz szybki podglÄ…d
 poczty.
 
-Funkcjonalno¶æ obejmuje:
-- sprawdzanie nowej poczty w Gmailu (¶ci¶le mówi±c u¿ywa zapytania
+FunkcjonalnoÅ›Ä‡ obejmuje:
+- sprawdzanie nowej poczty w Gmailu (Å›ciÅ›le mÃ³wiÄ…c uÅ¼ywa zapytania
   "is:unread")
 - zmienny czas sprawdzania (od 2 minut do kilku godzin)
-- GUI dla ustawieñ
-- podgl±d zawarto¶ci poczty (pokazuje takie same wycinki, jakie widaæ
-  w skrzynce przychodz±cej Gmaila).
+- GUI dla ustawieÅ„
+- podglÄ…d zawartoÅ›ci poczty (pokazuje takie same wycinki, jakie widaÄ‡
+  w skrzynce przychodzÄ…cej Gmaila).
 
 %prep
 %setup -q
